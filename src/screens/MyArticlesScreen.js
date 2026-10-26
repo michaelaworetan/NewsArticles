@@ -66,6 +66,14 @@ export default function MyArticlesScreen() {
                   
                   <Text style={styles.articleTitle}>{article.title}</Text>
                   <Text style={styles.articleDescription} testID="articleDescp">
+
+                     {article.image && (
+                    <Image
+                      source={{ uri: article.image }}
+                      style={styles.articleImage}
+                    />
+                  )}
+
                   
                   </Text>
                 </TouchableOpacity>

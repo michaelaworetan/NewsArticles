@@ -7,6 +7,10 @@
     },
     "android": {
       "package": "com.yashkapure.reactnativeui"
-    }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-status-bar"
+    ]
   }
 }

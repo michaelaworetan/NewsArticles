@@ -25,7 +25,7 @@ export default function Categories({
     <Animated.View entering={FadeInDown.duration(500).springify()}>
       <ScrollView
         horizontal
-        showsHorizontalScrollIndicator={false}
+        showsHorizontalScrollIndicator={true}
         contentContainerStyle={styles.scrollContainer}
       >
         {/* Add "My Food" category */}
